@@ -205,22 +205,23 @@ extension RecordScreen : DrawMouseBoxViewDelegate {
         
         globalRect = NSOffsetRect(globalRect, windowRect.origin.x, windowRect.origin.y)
         globalRect.origin.y = CGFloat(CGDisplayPixelsHigh(CGMainDisplayID())) - globalRect.origin.y
+        print(display)
         var displayID = display
         var matchingDisplayCount: UInt32 = 0
         
         /// 待解决
-//        let error = CGGetDisplaysWithPoint(NSPointToCGPoint(globalRect.origin),
-//                                           1,
-//                                           &displayID,
-//                                           &matchingDisplayCount)
-//        print("error \(error.rawValue)")
-//        print(matchingDisplayCount)
-//        if error == .Success && matchingDisplayCount == 1 {
-//            print("设置成功...")
-//            print(displayID)
-//            addDisplayInputToCaptureSession(displayID, cropRect: NSRectToCGRect(rect))
-//            
-//        }
+        let error = CGGetDisplaysWithPoint(NSPointToCGPoint(globalRect.origin),
+                                           1,
+                                           UnsafeMutablePointer<CGDirectDisplayID>.alloc(Int(displayID)),
+                                           &matchingDisplayCount)
+        print("error \(error.rawValue)")
+        print(matchingDisplayCount)
+        if error == .Success && matchingDisplayCount == 1 {
+            print("设置成功...")
+            print(displayID)
+            addDisplayInputToCaptureSession(displayID, cropRect: NSRectToCGRect(rect))
+            
+        }
         
         for window in NSApp.windows {
             
