@@ -1,0 +1,12 @@
+PODS:
+  - SnapKit (0.21.1)
+
+DEPENDENCIES:
+  - SnapKit (~> 0.21.0)
+
+SPEC CHECKSUMS:
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+
+PODFILE CHECKSUM: c0388ac86169dd96fadc449d8aa9b769b429b4ba
+
+COCOAPODS: 1.1.0.beta.1

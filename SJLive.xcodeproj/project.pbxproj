@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB529141D60537B008A922A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB529131D60537B008A922A /* AppDelegate.swift */; };
+		3CB529161D60537B008A922A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB529151D60537B008A922A /* Assets.xcassets */; };
+		3CB529191D60537C008A922A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB529171D60537C008A922A /* MainMenu.xib */; };
+		3CB529261D60554D008A922A /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB529241D60554D008A922A /* LiveViewController.swift */; };
+		3CB5292F1D605890008A922A /* CameraCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5292C1D605890008A922A /* CameraCapture.swift */; };
+		3CB529301D605890008A922A /* RecordScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5292D1D605890008A922A /* RecordScreen.swift */; };
+		3CB529311D605890008A922A /* VideoEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5292E1D605890008A922A /* VideoEncode.swift */; };
+		3CB529351D6078CE008A922A /* LiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB529341D6078CE008A922A /* LiveViewController.xib */; };
+		3CB5293B1D607EB2008A922A /* 20128159113178430.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CB5293A1D607EB2008A922A /* 20128159113178430.jpg */; };
+		3CE8817A1D60870B003ACF65 /* DrawMouseBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE881791D60870B003ACF65 /* DrawMouseBoxView.swift */; };
+		3CE8817C1D609B8E003ACF65 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE8817B1D609B8E003ACF65 /* AVFoundation.framework */; };
+		EA8148E1485CFF425960F236 /* Pods_SJLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8064DB4F847B5EABDBF53258 /* Pods_SJLive.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		248E50BE26428F727EE72C1C /* Pods-SJLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-SJLive/Pods-SJLive.release.xcconfig"; sourceTree = "<group>"; };
+		3CB529101D60537B008A922A /* SJLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB529131D60537B008A922A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CB529151D60537B008A922A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB529181D60537C008A922A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3CB5291A1D60537C008A922A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB529241D60554D008A922A /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		3CB5292C1D605890008A922A /* CameraCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCapture.swift; sourceTree = "<group>"; };
+		3CB5292D1D605890008A922A /* RecordScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordScreen.swift; sourceTree = "<group>"; };
+		3CB5292E1D605890008A922A /* VideoEncode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoEncode.swift; sourceTree = "<group>"; };
+		3CB529341D6078CE008A922A /* LiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveViewController.xib; sourceTree = "<group>"; };
+		3CB5293A1D607EB2008A922A /* 20128159113178430.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20128159113178430.jpg; sourceTree = "<group>"; };
+		3CE881751D6086DF003ACF65 /* SJLive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SJLive-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CE881791D60870B003ACF65 /* DrawMouseBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawMouseBoxView.swift; sourceTree = "<group>"; };
+		3CE8817B1D609B8E003ACF65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8064DB4F847B5EABDBF53258 /* Pods_SJLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45BE04E57087CD7F56DBD2A /* Pods-SJLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJLive/Pods-SJLive.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB5290D1D60537B008A922A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE8817C1D609B8E003ACF65 /* AVFoundation.framework in Frameworks */,
+				EA8148E1485CFF425960F236 /* Pods_SJLive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C613C0993944E63CD05AC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE8817B1D609B8E003ACF65 /* AVFoundation.framework */,
+				8064DB4F847B5EABDBF53258 /* Pods_SJLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CB529071D60537B008A922A = {
+			isa = PBXGroup;
+			children = (
+				3CB529121D60537B008A922A /* SJLive */,
+				3CB529111D60537B008A922A /* Products */,
+				EDE1A72E0B6986DA5D4A293D /* Pods */,
+				29C613C0993944E63CD05AC7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB529111D60537B008A922A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB529101D60537B008A922A /* SJLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB529121D60537B008A922A /* SJLive */ = {
+			isa = PBXGroup;
+			children = (
+				3CB529131D60537B008A922A /* AppDelegate.swift */,
+				3CB529151D60537B008A922A /* Assets.xcassets */,
+				3CB529171D60537C008A922A /* MainMenu.xib */,
+				3CB5291A1D60537C008A922A /* Info.plist */,
+				3CB5293A1D607EB2008A922A /* 20128159113178430.jpg */,
+				3CB529241D60554D008A922A /* LiveViewController.swift */,
+				3CB529341D6078CE008A922A /* LiveViewController.xib */,
+				3CB5292C1D605890008A922A /* CameraCapture.swift */,
+				3CB5292D1D605890008A922A /* RecordScreen.swift */,
+				3CB5292E1D605890008A922A /* VideoEncode.swift */,
+				3CE881791D60870B003ACF65 /* DrawMouseBoxView.swift */,
+				3CE881751D6086DF003ACF65 /* SJLive-Bridging-Header.h */,
+			);
+			path = SJLive;
+			sourceTree = "<group>";
+		};
+		EDE1A72E0B6986DA5D4A293D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F45BE04E57087CD7F56DBD2A /* Pods-SJLive.debug.xcconfig */,
+				248E50BE26428F727EE72C1C /* Pods-SJLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB5290F1D60537B008A922A /* SJLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB5291D1D60537C008A922A /* Build configuration list for PBXNativeTarget "SJLive" */;
+			buildPhases = (
+				F322E9F6CE7A1EE13F523B7F /* [CP] Check Pods Manifest.lock */,
+				3CB5290C1D60537B008A922A /* Sources */,
+				3CB5290D1D60537B008A922A /* Frameworks */,
+				3CB5290E1D60537B008A922A /* Resources */,
+				4A0F32F6E3C6F67791A00785 /* [CP] Embed Pods Frameworks */,
+				AF317F6027BD81B7A62C1FF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJLive;
+			productName = SJLive;
+			productReference = 3CB529101D60537B008A922A /* SJLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB529081D60537B008A922A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = king;
+				TargetAttributes = {
+					3CB5290F1D60537B008A922A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3CB5290B1D60537B008A922A /* Build configuration list for PBXProject "SJLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB529071D60537B008A922A;
+			productRefGroup = 3CB529111D60537B008A922A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB5290F1D60537B008A922A /* SJLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB5290E1D60537B008A922A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB5293B1D607EB2008A922A /* 20128159113178430.jpg in Resources */,
+				3CB529161D60537B008A922A /* Assets.xcassets in Resources */,
+				3CB529351D6078CE008A922A /* LiveViewController.xib in Resources */,
+				3CB529191D60537C008A922A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A0F32F6E3C6F67791A00785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJLive/Pods-SJLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF317F6027BD81B7A62C1FF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SJLive/Pods-SJLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F322E9F6CE7A1EE13F523B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB5290C1D60537B008A922A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE8817A1D60870B003ACF65 /* DrawMouseBoxView.swift in Sources */,
+				3CB529301D605890008A922A /* RecordScreen.swift in Sources */,
+				3CB529261D60554D008A922A /* LiveViewController.swift in Sources */,
+				3CB529311D605890008A922A /* VideoEncode.swift in Sources */,
+				3CB5292F1D605890008A922A /* CameraCapture.swift in Sources */,
+				3CB529141D60537B008A922A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CB529171D60537C008A922A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB529181D60537C008A922A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB5291B1D60537C008A922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB5291C1D60537C008A922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3CB5291E1D60537C008A922A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F45BE04E57087CD7F56DBD2A /* Pods-SJLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SJLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king129.SJLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SJLive/SJLive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CB5291F1D60537C008A922A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 248E50BE26428F727EE72C1C /* Pods-SJLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SJLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king129.SJLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SJLive/SJLive-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB5290B1D60537B008A922A /* Build configuration list for PBXProject "SJLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5291B1D60537C008A922A /* Debug */,
+				3CB5291C1D60537C008A922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB5291D1D60537C008A922A /* Build configuration list for PBXNativeTarget "SJLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB5291E1D60537C008A922A /* Debug */,
+				3CB5291F1D60537C008A922A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB529081D60537B008A922A /* Project object */;
+}
