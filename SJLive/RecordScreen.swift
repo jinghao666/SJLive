@@ -239,7 +239,8 @@ extension RecordScreen {
     func switchVideoInputSource(device: AVCaptureDevice?)  {
         
         if isRunning {
-            captureSession.stopRunning()
+            stopRunning()
+            stopRecording()
         }
         
         if isScreenInput {
@@ -287,7 +288,8 @@ extension RecordScreen {
     func switchAudioInputSource(device: AVCaptureDevice?)  {
         
         if isRunning {
-            captureSession.stopRunning()
+            stopRunning()
+            stopRecording()
         }
         
         if audioMicInput != nil {

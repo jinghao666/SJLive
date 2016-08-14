@@ -154,16 +154,18 @@ class LiveViewController: NSViewController {
         
         
         createRecordScreen()
+        
+        VideoPreView.autoresizingMask = [.LayerWidthSizable, .LayerHeightSizable]
     }
     override func viewDidAppear() {
         super.viewDidAppear()
-        VideoPreView.frame = NSRect(origin: CGPointMake(0, 0), size: paleyView.bounds.size)
+        VideoPreView.frame = NSRect(origin: CGPointMake(0, 0), size: paleyView.layer!.bounds.size)
     }
     
     
     override func viewDidLayout() {
         super.viewDidLayout()
-        VideoPreView.frame = NSRect(origin: CGPointMake(0, 0), size: paleyView.bounds.size)
+//        VideoPreView.frame = NSRect(origin: CGPointMake(0, 0), size: paleyView.bounds.size)
         print(paleyView.bounds.size)
     }
     func stopBtnClick() {

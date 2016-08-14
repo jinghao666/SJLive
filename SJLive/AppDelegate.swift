@@ -22,6 +22,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         frame.origin = NSMakePoint(frame.size.width * 0.5 - 500, frame.size.height * 0.5 - 400)
         frame.size = NSMakeSize(1000, 800)
         window.setFrame(frame, display: true)
+        window.minSize = NSMakeSize(900, 600)
         window.makeKeyAndOrderFront(self)
     }
 
